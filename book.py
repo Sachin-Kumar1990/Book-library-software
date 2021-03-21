@@ -7,7 +7,7 @@ view all records
 search any entry
 add entry
 delete entry
-close
+close test by alok
 """
 
 from tkinter import *
