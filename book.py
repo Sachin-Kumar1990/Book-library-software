@@ -27,6 +27,7 @@ def get_selected_row(event):
     e3.insert(END, get_seletected_tuple[3])
     e4.delete(0, END)
     e4.insert(END, get_seletected_tuple[4])
+    
 def update_command():
     backend.update(get_seletected_tuple[0], title_text.get(), author_text.get(), year_text.get(), ISBN_text.get())
 
@@ -45,7 +46,7 @@ def search_command():
 def add_entry_command():
     if title_text.get() == "" or author_text.get() == "" or year_text.get() == "" or ISBN_text.get() =="":
 
-        tkinter.messagebox.showerror("showerror", "Error")
+        tkinter.messagebox.showerror("showerror", "Some of the fields are empty")
         #window.mainloop()
 
     else:
