@@ -7,8 +7,9 @@ view all records
 search any entry
 add entry
 delete entry
-close test by alok
-"""
+
+close by sachin raj  222222
+
 
 from tkinter import *
 import tkinter.messagebox
